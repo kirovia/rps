@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="reset.min.css">
+    <link rel="stylesheet" href="style.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row top">
+        <a href="#" id="rock" onclick="playerChoosesRock()"><i class="fa fa-hand-rock fa-5x"></i></a>
+        <a href="#" id="paper" onclick="playerChoosesPaper()"><i class="fa fa-hand-paper fa-5x"></i></a>
+        <a href="#" id="scissors" onclick="playerChoosesScissors()"><i class="fa fa-hand-scissors fa-5x"></i></a>
+      </div>
+      <div class="row bottom">
+        <div id="result">
+          Choose your hand!
+        </div>
+        <div class="bottom-bottom">
+          <div id="your-choice">
+            <i class="fa fa-question fa-5x"></i>
+          </div>
+          <div id="computer-choice">
+            <i class="fa fa-question fa-5x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
